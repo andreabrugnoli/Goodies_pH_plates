@@ -1,0 +1,29 @@
+This folder contains some simulations of the Kirchhoff plate written as a port-Hamiltonian system.
+
+All this simulations feature a DAE system. By projection this is turned into an ODE.
+Physical parameters:  unit square thin (t/L = 0.05) aluminium plate
+A = 10^5
+Small descrtiption of each video:
+ 
+- Kirchhoff_Damped
+	Boundary damping injection for a cantilever plate
+		For 0<t<1s no control action
+		Plate damped in 4 seconds
+  
+- Kirchh_SymmetricExcitation
+  	Cantilever Kirchoff plate with inhomogenous Neumann condtion
+    	q_n (y = 0) = f(x, t)
+    	q_n (y = L) = f(x, t)
+		q_n (x = L) = f(x = L, t)
+  
+    	with f(y,t) = A*x (t<0.25*t_end) 
+  
+  
+- Kirchh_Gravity
+	Unit square plate with bcs CCCF subject to gravity field
+	
+- Kirchh_Rod 
+	Cantilever plate undergoing a distributed force welded to a rigid rod. 
+		f_d = A*(y + 10(y-L/2)^*2)
+	
+	By comparison the same simulation without the rod is considered (Kirchhff_NoRod)
