@@ -10,10 +10,10 @@ Small descrtiption of each video:
   
 - Mindlin_SymmetricExcitation
   	Unit cantilver square Mindlin plate with inhomogenous Neumann condtion
-    	q_n (y = 0) = +f(y, t)
-    	q_n (y = L) = -f(y, t)
+    	q_n (y = 0) = +f(x, t)
+    	q_n (y = L) = -f(x, t)
   
-    	with f(y,t) = sin(pi/L*y) (t<0.25*t_end) 
+    	with f(y,t) = sin(pi/L*x) (t<0.25*t_end) 
   
   
 - Mindlin_Gravity
