@@ -1,11 +1,13 @@
-All this simulations feature a DAE system. By projection this is turned into an ODE
+All this simulations feature a DAE system. By projection this is turned into an ODE.
+Physical parameters: unit square thick (t/L = 0.1) aluminium plate
+
 
 Small descrtiption of each video:
 
 - Interconnected_MindlinPlates
 	Two unit (L=1) square plates interconnected at L/3 and 2*L/3. Excited by
-   		f_plate1 = A*y (t<0.2*t_end)
-    	f_plate2 = A*(L - y ) (t<0.2*t_end)  
+   		f_plate1 = A*y		(t<0.2*t_end)
+    		f_plate2 = A*(L - y )  	(t<0.2*t_end)  
   
   
 - Mindlin_SymmetricExcitation
