@@ -1,0 +1,21 @@
+All this simulations feature a DAE system. By projection this is turned into an ODE
+
+Small descrtiption of each video:
+
+- Interconnected_MindlinPlates
+	Two unit (L=1) square plates interconnected at L/3 and 2*L/3. Excited by
+   		f_plate1 = A*y (t<0.2*t_end)
+    	f_plate2 = A*(L - y ) (t<0.2*t_end)  
+  
+  
+- Mindlin_SymmetricExcitation
+  	Unit cantilver square Mindlin plate with inhomogenous Neumann condtion
+    	q_n (y = 0) = +f(y, t)
+    	q_n (y = L) = -f(y, t)
+  
+    	with f(y,t) = sin(pi/L*y) (t<0.25*t_end) 
+  
+  
+- Mindlin_Gravity
+  	Unit square plate with bc CFCF subject to gravity field
+ 
