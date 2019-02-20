@@ -1,6 +1,8 @@
+This folder contains some simulations of the Mindlin plate written as a port-Hamiltonian system.
+
+
 All this simulations feature a DAE system. By projection this is turned into an ODE.
 Physical parameters: unit square thick (t/L = 0.1) aluminium plate
-
 
 Small descrtiption of each video:
 
