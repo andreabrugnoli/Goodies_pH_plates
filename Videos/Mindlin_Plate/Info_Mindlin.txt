@@ -6,8 +6,8 @@ Small descrtiption of each video:
 
 - Interconnected_MindlinPlates
 	Two unit (L=1) square plates interconnected at L/3 and 2*L/3. Excited by
-   		f_plate1 = A*y		(t<0.2*t_end)
-    		f_plate2 = A*(L - y )  	(t<0.2*t_end)  
+   		f_plate1 = 1000*y		(t<0.2*t_end)
+    		f_plate2 = 1000*(L - y )  	(t<0.2*t_end)  
   
   
 - Mindlin_SymmetricExcitation
@@ -15,7 +15,7 @@ Small descrtiption of each video:
     	q_n (y = 0) = +f(x, t)
     	q_n (y = L) = -f(x, t)
   
-    	with f(y,t) = sin(pi/L*x) (t<0.25*t_end) 
+    	with f(y,t) = (10^5)*sin(pi/L*x) (t<0.25*t_end) 
   
   
 - Mindlin_Gravity
